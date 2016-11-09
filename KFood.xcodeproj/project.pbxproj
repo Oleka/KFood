@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		5EAEAF141DCA0ED600CEE9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */; };
 		5EAEAF161DCA0ED600CEE9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */; };
-		5EAEAF191DCA0ED600CEE9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAF171DCA0ED600CEE9CC /* Main.storyboard */; };
 		5EAEAF1B1DCA0ED600CEE9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAF1A1DCA0ED600CEE9CC /* Assets.xcassets */; };
-		5EAEAF1E1DCA0ED600CEE9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAF1C1DCA0ED600CEE9CC /* LaunchScreen.storyboard */; };
+		5EAEAF261DCA0FE600CEE9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAF251DCA0FE600CEE9CC /* Main.storyboard */; };
+		5ECE101A1DCE4D2A0095FF22 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE10191DCE4D2A0095FF22 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5EAEAF101DCA0ED500CEE9CC /* KFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EAEAF181DCA0ED600CEE9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EAEAF1A1DCA0ED600CEE9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EAEAF1D1DCA0ED600CEE9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EAEAF1F1DCA0ED600CEE9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAEAF251DCA0FE600CEE9CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5ECE10191DCE4D2A0095FF22 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */,
 				5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */,
-				5EAEAF171DCA0ED600CEE9CC /* Main.storyboard */,
 				5EAEAF1A1DCA0ED600CEE9CC /* Assets.xcassets */,
-				5EAEAF1C1DCA0ED600CEE9CC /* LaunchScreen.storyboard */,
 				5EAEAF1F1DCA0ED600CEE9CC /* Info.plist */,
+				5EAEAF251DCA0FE600CEE9CC /* Main.storyboard */,
+				5ECE10191DCE4D2A0095FF22 /* Launch Screen.storyboard */,
 			);
 			path = KFood;
 			sourceTree = "<group>";
@@ -105,10 +105,6 @@
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
 			mainGroup = 5EAEAF071DCA0ED400CEE9CC;
 			productRefGroup = 5EAEAF111DCA0ED500CEE9CC /* Products */;
 			projectDirPath = "";
@@ -124,9 +120,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAEAF1E1DCA0ED600CEE9CC /* LaunchScreen.storyboard in Resources */,
+				5ECE101A1DCE4D2A0095FF22 /* Launch Screen.storyboard in Resources */,
 				5EAEAF1B1DCA0ED600CEE9CC /* Assets.xcassets in Resources */,
-				5EAEAF191DCA0ED600CEE9CC /* Main.storyboard in Resources */,
+				5EAEAF261DCA0FE600CEE9CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,25 +139,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5EAEAF171DCA0ED600CEE9CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EAEAF181DCA0ED600CEE9CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5EAEAF1C1DCA0ED600CEE9CC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EAEAF1D1DCA0ED600CEE9CC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5EAEAF201DCA0ED600CEE9CC /* Debug */ = {
@@ -300,6 +277,7 @@
 				5EAEAF241DCA0ED600CEE9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
