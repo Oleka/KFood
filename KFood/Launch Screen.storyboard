@@ -22,21 +22,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="vbD-hE-Qow">
-                                <rect key="frame" x="115" y="375" width="196" height="241"/>
+                                <rect key="frame" x="115" y="247.66666666666669" width="196" height="241.00000000000006"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Питание Кузнеца v1.5.5.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmq-4b-Gca">
-                                <rect key="frame" x="99.333333333333314" y="626" width="215.33333333333337" height="24"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" red="0.10588235294117647" green="0.29019607843137252" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70196078431372544" green="0.93725490196078431" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="vbD-hE-Qow" secondAttribute="bottom" constant="120" id="8Un-ZE-z52"/>
                             <constraint firstItem="vbD-hE-Qow" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="6" id="YiS-zR-6yL"/>
-                            <constraint firstItem="Nmq-4b-Gca" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bNu-vk-jpv"/>
-                            <constraint firstItem="Nmq-4b-Gca" firstAttribute="top" secondItem="vbD-hE-Qow" secondAttribute="bottom" constant="10" id="lni-jB-EIF"/>
+                            <constraint firstItem="vbD-hE-Qow" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="s02-gr-0Qc"/>
                         </constraints>
                     </view>
                 </viewController>

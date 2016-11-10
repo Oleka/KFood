@@ -211,7 +211,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background.png")!)
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background.png")!)
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E33396D1DD346500057CD18 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33396C1DD346500057CD18 /* IntroViewController.swift */; };
 		5EAEAF141DCA0ED600CEE9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */; };
 		5EAEAF161DCA0ED600CEE9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */; };
 		5EAEAF1B1DCA0ED600CEE9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAF1A1DCA0ED600CEE9CC /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E33396C1DD346500057CD18 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		5EAEAF101DCA0ED500CEE9CC /* KFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				5EAEAF131DCA0ED600CEE9CC /* AppDelegate.swift */,
 				5EAEAF151DCA0ED600CEE9CC /* ViewController.swift */,
+				5E33396C1DD346500057CD18 /* IntroViewController.swift */,
 				5EAEAF1A1DCA0ED600CEE9CC /* Assets.xcassets */,
 				5EAEAF1F1DCA0ED600CEE9CC /* Info.plist */,
 				5EAEAF251DCA0FE600CEE9CC /* Main.storyboard */,
@@ -105,6 +108,9 @@
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 5EAEAF071DCA0ED400CEE9CC;
 			productRefGroup = 5EAEAF111DCA0ED500CEE9CC /* Products */;
 			projectDirPath = "";
@@ -133,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E33396D1DD346500057CD18 /* IntroViewController.swift in Sources */,
 				5EAEAF161DCA0ED600CEE9CC /* ViewController.swift in Sources */,
 				5EAEAF141DCA0ED600CEE9CC /* AppDelegate.swift in Sources */,
 			);
