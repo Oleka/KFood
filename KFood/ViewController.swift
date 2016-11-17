@@ -114,17 +114,27 @@ class ViewController: UIViewController {
         
         var iTag = 0
         while iTag < arr.count {
+            
+            
+            
             if let iButton = self.view.viewWithTag(iTag) as? UIButton {
+                
+                let myAttribute = [ NSFontAttributeName: UIFont(name: "Avenir-Book", size: 14.0)! ]
+                
+                let myString = NSMutableAttributedString(string: (iButton.title(for: .normal))!, attributes: myAttribute )
+                iButton.setAttributedTitle(myString, for: .normal)
+                
                 iButton.borderWidth=0
-                iButton.setTitleColor(UIColor(string: "E9F8D9"), for: .normal)
+                iButton.setTitleColor(UIColor(string: "C4FFBB"), for: .normal)
+                
                 if (arr[iTag]==2) {
-                    iButton.backgroundColor = UIColor(string: "4D990C")
+                    iButton.backgroundColor = UIColor(string: "346F01")
                 }
                 else if(arr[iTag]==1){
-                    iButton.backgroundColor = UIColor(string: "1C82E1")
+                    iButton.backgroundColor = UIColor(string: "034F96")
                 }
                 else{
-                    iButton.backgroundColor = UIColor(string: "F6651F")
+                    iButton.backgroundColor = UIColor(string: "D54905")
                 }
             }
             iTag += 1
@@ -146,8 +156,32 @@ class ViewController: UIViewController {
         sender.borderWidth=2
         sender.borderColor=UIColor(string: "4D990C")
         sender.backgroundColor=UIColor(string: "B3EF73")
-        sender.setTitleColor(UIColor(string: "4D990C"), for: .normal)
-
+        
+        //bold
+        let myAttribute = [ NSFontAttributeName: UIFont(name: "Avenir-Black", size: 13.0)! ]
+       
+        
+        let myString = NSMutableAttributedString(string: (sender.title(for: .normal))!, attributes: myAttribute )
+        
+        //color
+        let stringLength = myString.length
+        myString.addAttribute(NSForegroundColorAttributeName,
+                              value: UIColor(string: "4D990C"),
+                              range: NSRange(
+                              location: 0,
+                              length: stringLength))
+        
+        sender.setAttributedTitle(myString, for: .normal)
+        
+        //animated border
+        sender.layer.borderWidth = 3.0
+        let color: CABasicAnimation = CABasicAnimation(keyPath: "borderColor")
+        color.toValue      = UIColor(string: "D54905")
+        color.fromValue    = UIColor.clear.cgColor
+        color.duration     = 0.5
+        color.autoreverses = true
+        sender.layer.borderColor = UIColor(string: "346F01").cgColor
+        sender.layer.add(color, forKey: "")
     }
     
     func isInternetAvailable() -> Bool
